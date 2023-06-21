@@ -1,0 +1,109 @@
+.header {
+  background-color: #fff;
+  height: 48px;
+  position: sticky;
+  top: 0;
+  left: 0;
+  display: inline-flex;
+  align-items: center;
+  width: 100%;
+  z-index: 9;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.content {
+  border-bottom: 1px solid #edeff1;
+  height: 100%;
+  width: 100%;
+  padding: 0 20px;
+}
+
+.logoSearch {
+  /* width: 100%; */
+  flex: 1;
+}
+
+.redditLogo {
+  width: 32px;
+  height: 32px;
+  padding: 8px 8px 8px 0;
+}
+
+.redditLogoText {
+  height: 18px;
+}
+
+.searchBar {
+  flex-grow: 1;
+  margin: 0 auto;
+  max-width: 690px;
+}
+
+.searchBarInput {
+  box-sizing: border-box;
+  background-color: #f6f7f8;
+  border: 1px solid #edeff1;
+  border-radius: 1.25em;
+  box-shadow: none;
+  height: 40px;
+}
+
+.searchBarInput:hover {
+  border-color: #027ad3;
+}
+
+.inputWrapper {
+  width: 100%;
+}
+
+.searchIcon {
+  padding: 0 9px 0 15px;
+}
+
+.searchIcon svg {
+  color: #878a8c;
+  position: relative;
+  top: 1px;
+}
+
+.inputWrapper input {
+  appearance: none;
+  color: #1c1c1c;
+  font-size: 14px;
+  line-height: 14px;
+  margin-right: 16px;
+  background-color: inherit;
+  outline: none;
+  border: none;
+  width: 100%;
+  letter-spacing: 0.2px;
+}
+
+.navigationButtons {
+  gap: 16px;
+  margin-left: 16px;
+}
+
+.profileDropDown {
+  margin-left: 8px;
+}
+
+.profileDropdownIcons {
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 0 14px;
+}
+
+.profileDropdownIcons:hover {
+  outline: 1px solid #eeeeee;
+}
+
+.profileDropdownIcons :first-child {
+  width: 30px;
+  height: 30px;
+  color: #878a8c;
+}
