@@ -1,0 +1,213 @@
+.trendingFiltering {
+  align-items: center;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  margin-bottom: 16px;
+  padding: 10px 12px;
+}
+
+.navigation {
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+}
+
+.hot {
+  background: #f6f7f8;
+  color: #0079d3;
+  cursor: default;
+  fill: #0079d3;
+}
+
+.trendingFiltering a {
+  box-sizing: border-box;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  text-transform: capitalize;
+  margin-right: 8px;
+  position: relative;
+  border: 1px solid transparent;
+  min-height: unset;
+  min-width: unset;
+  width: auto;
+  padding: 6px 8px;
+  border-radius: 20px;
+  font-family: Noto Sans, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: unset;
+  line-height: 17px;
+  text-decoration: none;
+}
+
+.trendingFiltering a:hover {
+  background-color: #dae0e6;
+}
+
+.trendingFiltering svg {
+  display: inline-block;
+  padding: 0 8px 0 0;
+  height: 20px;
+  width: 20px;
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 400;
+  vertical-align: middle;
+}
+
+.hotLabel {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 18px;
+  max-height: 54px;
+  display: -webkit-inline-box;
+  -webkit-line-clamp: 3;
+  white-space: normal;
+  -webkit-box-orient: vertical;
+  text-align: left;
+}
+
+.countryFilter {
+  border-radius: 20px;
+  margin-right: 8px;
+  padding: 6px 8px;
+  background: #f6f7f8;
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+}
+
+.countryFilterButton {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.countryFilterButton button {
+  font-family: Noto Sans, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: unset;
+  line-height: 17px;
+  text-transform: unset;
+  padding: 0 8px;
+  background: inherit;
+  color: #0079d3;
+  fill: #0079d3;
+  margin: 0;
+  outline: none;
+  border: none;
+  display: flex;
+  align-items: center;
+  text-align: left;
+  width: 100%;
+  cursor: pointer;
+}
+
+.buttonLabel {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 18px;
+  max-height: 54px;
+  display: -webkit-inline-box;
+  -webkit-line-clamp: 3;
+  white-space: normal;
+  -webkit-box-orient: vertical;
+  letter-spacing: unset;
+  text-transform: unset;
+  color: #0079d3;
+  fill: #0079d3;
+}
+
+.buttonIcon {
+  margin-right: -4px;
+  margin-left: 2px;
+  font-size: 20px;
+  font-weight: 400;
+  height: 20px;
+  line-height: 20px;
+  vertical-align: middle;
+  width: 20px;
+  color: #0079d3;
+  fill: #0079d3;
+}
+
+.new,
+.top {
+  background-color: transparent;
+  color: #878a8c;
+  fill: #878a8c;
+}
+
+.viewMore {
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.viewMore button {
+  display: inline-block;
+  border-radius: 20px;
+  color: #878a8c;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.viewMore button:hover {
+  background-color: #f2f2f2;
+}
+
+.cardsTypes {
+  margin-left: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row nowrap;
+}
+
+.cardsTypesContent {
+  align-items: center;
+  border-radius: 20px;
+  cursor: pointer;
+  display: flex;
+  height: 32px;
+  padding: 0 8px;
+}
+
+.cardsTypesContent:hover {
+  background-color: #f2f2f2;
+}
+
+.cardsTypesContent button {
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+  color: #878a8c;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.cardsIcon {
+  display: inline-flex;
+  margin-right: 0;
+  color: #878a8c;
+}
+
+.cardsTypesContent button svg {
+  padding-right: 0;
+}

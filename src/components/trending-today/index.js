@@ -16,12 +16,6 @@ function TrendingToday() {
               display: "block",
               width: "100%",
               height: "100%",
-              // backgroundImage:
-              //   "url('https://external-preview.redd.it/Qmj_ai9eMvipIEZ3ITQx437kuqCPDw79G_NYxxzqhIg.jpg?auto=webp&v=enabled&s=f49a38698922af610a00983769267c5538c1e989')",
-              // backgroundSize: "cover",
-              // backgroundPosition: "center center",
-              // backgroundRepeat: "no-repeat",
-              // backgroundColor: "#fff",
             }}
           >
             <div
@@ -58,12 +52,6 @@ function TrendingToday() {
               display: "block",
               width: "100%",
               height: "100%",
-              // backgroundImage:
-              //   "url('https://external-preview.redd.it/Qmj_ai9eMvipIEZ3ITQx437kuqCPDw79G_NYxxzqhIg.jpg?auto=webp&v=enabled&s=f49a38698922af610a00983769267c5538c1e989')",
-              // backgroundSize: "cover",
-              // backgroundPosition: "center center",
-              // backgroundRepeat: "no-repeat",
-              // backgroundColor: "#fff",
             }}
           >
             <div
@@ -101,12 +89,6 @@ function TrendingToday() {
               display: "block",
               width: "100%",
               height: "100%",
-              // backgroundImage:
-              //   "url('https://external-preview.redd.it/Qmj_ai9eMvipIEZ3ITQx437kuqCPDw79G_NYxxzqhIg.jpg?auto=webp&v=enabled&s=f49a38698922af610a00983769267c5538c1e989')",
-              // backgroundSize: "cover",
-              // backgroundPosition: "center center",
-              // backgroundRepeat: "no-repeat",
-              // backgroundColor: "#fff",
             }}
           >
             <div
@@ -145,12 +127,6 @@ function TrendingToday() {
               display: "block",
               width: "100%",
               height: "100%",
-              // backgroundImage:
-              //   "url('https://external-preview.redd.it/Qmj_ai9eMvipIEZ3ITQx437kuqCPDw79G_NYxxzqhIg.jpg?auto=webp&v=enabled&s=f49a38698922af610a00983769267c5538c1e989')",
-              // backgroundSize: "cover",
-              // backgroundPosition: "center center",
-              // backgroundRepeat: "no-repeat",
-              // backgroundColor: "#fff",
             }}
           >
             <div

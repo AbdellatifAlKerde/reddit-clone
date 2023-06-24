@@ -1,0 +1,21 @@
+.posts {
+  max-width: 100%;
+  padding: 20px 24px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.postsWrapper {
+  width: 640px;
+}
+
+.title {
+  padding-bottom: 10px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+  color: #1a1a1b;
+  text-transform: unset;
+}
